@@ -10,9 +10,11 @@ if (confirm('Do you want to login?')) {
 }
 
 function userVerification() { 
-  if (name ==="ashish" && password === "a123") {
+  if (name =="ashish" && password == "123") {
       location.replace("page4.html")
+      // console.log("true")
   } else {
       alert("Enter a valid name and password")
+      // console.log("false")
   }
 }
